@@ -28,6 +28,11 @@ import {
                 Writing
               </Link>
             </li>
+            <li className={navLinkItem}>
+              <Link to="/food" className={navLinkText}>
+                Food
+              </Link>
+            </li>
           </ul>
         </nav>
         <main>
