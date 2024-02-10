@@ -23,6 +23,11 @@ import {
                 About
               </Link>
             </li>
+            <li className={navLinkItem}>
+              <Link to="/writing" className={navLinkText}>
+                Writing
+              </Link>
+            </li>
           </ul>
         </nav>
         <main>

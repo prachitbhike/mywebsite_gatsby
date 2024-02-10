@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `mywebsite_gatsby`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Prachit Bhike`,
+    siteUrl: `https://www.prachitbhike.com`
   },
   plugins: ["gatsby-plugin-emotion", {
     resolve: "gatsby-plugin-google-gtag",
@@ -41,8 +41,8 @@ module.exports = {
       preconnect: [`https://fonts.googleapis.com`, `https://fonts.gstatic.com`],
       web: [
         {
-          name: `Protest Riot`,
-          file: `https://fonts.googleapis.com/css2?family=Protest+Riot:wght@400;600;700&display=swap`,
+          name: `Titillium Web`,
+          file: `https://fonts.googleapis.com/css2?family=Titillium+Web:wght@500;700;800&display=swap`,
         },
       ],
     }

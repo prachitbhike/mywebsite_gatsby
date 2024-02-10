@@ -1,11 +1,12 @@
 .container {
   margin: auto;
   max-width: 1000px;
-  font-family: "Protest Riot";
+  font-family: "Titillium Web";
+  background-color: rgb(243, 217, 195);
 }
 
 .heading {
-  color: rebeccapurple;
+  color: black;
 }
 .nav-links {
   display: flex;
