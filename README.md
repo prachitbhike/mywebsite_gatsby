@@ -4,10 +4,12 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby Minimal Starter
+  Welcome to Prachit's Website
 </h1>
 
 ## 🚀 Quick start
+
+Here I will document how I approached building my website. 
 
 1.  **Create a Gatsby site.**
 
