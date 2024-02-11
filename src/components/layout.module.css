@@ -1,10 +1,11 @@
 .container {
   margin: auto;
-  max-width: 1000px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 50px;
   font-family: "Titillium Web";
-  background-color: rgb(243, 217, 195);
+  background-color: rgb(255, 249, 232);
 }
-
 .heading {
   color: black;
 }
@@ -18,4 +19,6 @@
 }
 .nav-link-text {
   color: black;
+  font-size: 175%;
+  text-decoration: none; 
 }

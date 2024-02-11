@@ -15,12 +15,12 @@ import {
           <ul className={navLinks}>
             <li className={navLinkItem}>
               <Link to="/" className={navLinkText}>
-                Home
+                Prachit Bhike
               </Link>
             </li>
             <li className={navLinkItem}>
-              <Link to="/about" className={navLinkText}>
-                About
+              <Link to="/projects" className={navLinkText}>
+                Projects
               </Link>
             </li>
             <li className={navLinkItem}>

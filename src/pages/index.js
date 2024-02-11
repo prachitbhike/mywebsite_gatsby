@@ -2,20 +2,25 @@
 import * as React from 'react'
 import Layout from '../components/layout.js'
 import { StaticImage } from 'gatsby-plugin-image'
+import "../components/global.css"
 
 // Index page component 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+    <Layout pageTitle="About Me">
+      <p>Hi! My name is Prachit Bhike and this is my personal website. I used React to build this.</p>
+      <p>
+      I currently work in technology investment banking at Qatalyst. I enjoy music, food and reading.
+      </p>
+      <br></br>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        alt="Prachit sitting at Golden Gate Park."
+        src="../images/prachit_park.jpeg"
       />
     </Layout>
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Prachit Bhike</title>
 
 export default IndexPage

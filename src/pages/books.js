@@ -1,10 +1,11 @@
 import * as React from 'react'
 import Layout from '../components/layout'
+import "../components/global.css"
 
 const BooksPage = () => {
   return (
     <Layout pageTitle="Writing">
-      <p>This are my favorite books.</p>
+      <p>These are my favorite books.</p>
     </Layout>
   )
 }
