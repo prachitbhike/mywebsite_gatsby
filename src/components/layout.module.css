@@ -1,7 +1,7 @@
 .container {
   margin: auto;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
   padding-top: 50px;
   font-family: "Titillium Web";
   background-color: rgb(231, 229, 223);
@@ -16,11 +16,11 @@
 }
 .nav-link-name {
   color: black;
-  font-size: 225%;
+  font-size: 200%;
   text-decoration: none; 
 }
 .nav-link-text {
-  color: black;
-  font-size: 175%;
+  color: darkslategray;
+  font-size: 150%;
   text-decoration: none; 
 }
