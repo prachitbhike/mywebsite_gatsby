@@ -7,15 +7,15 @@ import "../components/global.css"
 // Index page component 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <Layout pageTitle="About">
       <p>Hi! My name is Prachit Bhike and this is my personal website. I used React to build this.</p>
       <p>
       I currently work in technology investment banking at Qatalyst. I enjoy music, food and reading.
       </p>
       <br></br>
       <StaticImage
-        alt="Prachit sitting at Golden Gate Park."
-        src="../images/prachit_park.jpeg"
+        alt="Prachit as a ."
+        src="../images/prachit_baby.jpeg"
       />
     </Layout>
   )

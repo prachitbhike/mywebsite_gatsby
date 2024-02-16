@@ -2,20 +2,24 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import {
     container,
-    heading,
     navLinks,
     navLinkItem,
     navLinkText
   } from './layout.module.css'
 
-  const Layout = ({ pageTitle, children }) => {
+  const Layout = ({ children }) => {
     return (
       <div className={container}>
         <nav>
           <ul className={navLinks}>
-            <li className={navLinkItem}>
+          <li className={navLinkItem}>
               <Link to="/" className={navLinkText}>
                 Prachit Bhike
+              </Link>
+            </li>
+            <li className={navLinkItem}>
+              <Link to="/" className={navLinkText}>
+                About
               </Link>
             </li>
             <li className={navLinkItem}>
@@ -35,8 +39,8 @@ import {
             </li>
           </ul>
         </nav>
+        <br></br>
         <main>
-          <h1 className={heading}>{pageTitle}</h1>
           {children}
         </main>
       </div>
