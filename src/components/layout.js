@@ -5,6 +5,7 @@ export default function Layout ({children}){
     return (
         <div className = "layout">
             <Navbar />
+            <br></br>
             <div className = "content">
                 {children}
             </div>

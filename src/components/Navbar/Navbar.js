@@ -1,6 +1,6 @@
-import * as React from 'react';
-import styled from 'styled-components';
-import Burger from './Burger';
+import * as React from 'react'
+import styled from 'styled-components'
+import Burger from './Burger'
 
 const Nav = styled.nav`
   width: 100%;
@@ -14,7 +14,9 @@ const Nav = styled.nav`
   padding-right: 20px;
 
   .name {
-    padding-top: 1.5rem;
+    padding-top: 0.5rem;
+    font-size: 2rem;
+    font-family: Titillium Web;
   }
 `
 

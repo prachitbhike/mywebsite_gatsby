@@ -8,7 +8,11 @@ const Ul = styled.ul`
   flex-flow: row nowrap;
 
   li {
-    padding: 18px 10px;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Titillium Web;
+    text-decoration: none;
   }
 
   @media (max-width: 768px) {
@@ -25,6 +29,7 @@ const Ul = styled.ul`
 
     li {
       color: #fff;
+      font-family: Titillium Web;
     }
   }
 `;
