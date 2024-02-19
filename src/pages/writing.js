@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Layout from '../components/layout'
-import "../components/global.css"
+import Layout from '../components/Layout'
+import "../components/Global.css"
 
 const WritingPage = () => {
   return (

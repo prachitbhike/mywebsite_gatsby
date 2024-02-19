@@ -6,7 +6,7 @@ module.exports = {
     title: `Prachit Bhike`,
     siteUrl: `https://www.prachitbhike.com`
   },
-  plugins: ["gatsby-plugin-emotion", {
+  plugins: ["gatsby-plugin-emotion", "gatsby-plugin-styled-components", {
     resolve: "gatsby-plugin-google-gtag",
     options: {
       trackingIds: [

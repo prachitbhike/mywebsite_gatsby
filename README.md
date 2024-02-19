@@ -2,5 +2,5 @@
   Welcome to Prachit's Website
 </h1>
 
-I built this website using the Gatsby javascript framework.
+I built this website using the Gatsby Javascript framework.
 

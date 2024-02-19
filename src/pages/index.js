@@ -1,10 +1,8 @@
-// Imports
 import * as React from 'react'
-import Layout from '../components/layout.js'
+import Layout from '../components/Layout'
 import { StaticImage } from 'gatsby-plugin-image'
-import "../components/global.css"
+import "../components/Global.css"
 
-// Index page component 
 const IndexPage = () => {
   return (
     <Layout pageTitle="About">
