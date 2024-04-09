@@ -26,7 +26,6 @@ const Navbar = () => {
       <div className="name">
         Prachit Bhike
       </div>
-      <Burger />
     </Nav>
   )
 }

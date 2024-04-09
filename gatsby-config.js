@@ -35,6 +35,13 @@ module.exports = {
     },
     __key: "pages"
   }, {
+    resolve: 'gatsby-source-filesystem',
+    options: {
+      "name": "blog",
+      "path": "./src/pages/blog"
+    },
+    __key: "blog"
+  }, {
     resolve: 'gatsby-omni-font-loader',
     options: {
       enableListener: true,

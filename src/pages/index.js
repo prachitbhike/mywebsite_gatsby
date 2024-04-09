@@ -5,7 +5,7 @@ import "../components/Global.css"
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle="About">
+    <Layout>
       <p>Hi! My name is Prachit Bhike and this is my personal website. I used React to build this.</p>
       <p>
       I currently work in technology investment banking at Qatalyst. I enjoy music, food and reading.

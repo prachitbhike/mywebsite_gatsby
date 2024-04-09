@@ -4,7 +4,7 @@ import "../components/Global.css"
 
 const FoodPage = () => {
   return (
-    <Layout pageTitle="Food">
+    <Layout>
       <p>This is my food.</p>
     </Layout>
   )

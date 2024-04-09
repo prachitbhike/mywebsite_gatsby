@@ -4,8 +4,8 @@ import "../components/Global.css"
 
 const ProjectsPage = () => {
   return (
-    <Layout pageTitle="Projects">
-      <p>These are my projects.</p>
+    <Layout>
+      <p>GitHub: https://github.com/prachitbhike</p>
     </Layout>
   )
 }
